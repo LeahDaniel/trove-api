@@ -1,116 +1,203 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "name": "Billy Bob",
-            "email": "billy@email.com"
-        },
-        {
-            "name": "Leah Daniel",
-            "email": "leah@email.com",
-            "id": 2
-        }
-    ],
-    "platforms": [
-        {
-            "id": 1,
-            "platform": "PC"
-        },
-        {
-            "id": 2,
-            "platform": "Xbox"
-        },
-        {
-            "id": 3,
-            "platform": "Playstation"
-        },
-        {
-            "id": 4,
-            "platform": "Switch"
-        },
-        {
-            "id": 5,
-            "platform": "Other"
-        }
-    ],
-    "games": [
-        {
-            "id": 1,
-            "name": "The Witcher 3",
-            "userId": 2,
-            "platformId": 1,
-            "current": true,
-            "multiplayerCapable": false
-        },
-        {
-            "id": 2,
-            "name": "Civilization 5",
-            "userId": 2,
-            "platformId": 1,
-            "current": false,
-            "multiplayerCapable": true
-        },
-        {
-            "id": 3,
-            "name": "Stardew Valley",
-            "userId": 2,
-            "platformId": 1,
-            "current": true,
-            "multiplayerCapable": true
-        }
-    ],
-    "tags": [
-        {
-            "id": 1,
-            "tag": "RPG"
-        },
-        {
-            "id": 2,
-            "tag": "Open world"
-        },
-        {
-            "id": 3,
-            "tag": "Strategy"
-        },
-        {
-            "id": 4,
-            "tag": "Casual"
-        },
-        {
-            "id": 5,
-            "tag": "Simulator"
-        }
-    ],
-    "taggedGames": [
-        {
-            "id": 1,
-            "gameId": 1,
-            "tagId": 1
-        },
-        {
-            "id": 2,
-            "gameId": 1,
-            "tagId": 2
-        },
-        {
-            "id": 3,
-            "gameId": 2,
-            "tagId": 3
-        },
-        {
-            "id": 4,
-            "gameId": 3,
-            "tagId": 4
-        },
-        {
-            "id": 5,
-            "gameId": 3,
-            "tagId": 5
-        },
-        {
-            "id": 6,
-            "gameId": 3,
-            "tagId": 1
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "name": "Billy Bob",
+      "email": "billy@email.com"
+    },
+    {
+      "name": "Leah Daniel",
+      "email": "leah@email.com",
+      "id": 2
+    }
+  ],
+  "platforms": [
+    {
+      "id": 1,
+      "name": "Windows/macOS"
+    },
+    {
+      "id": 2,
+      "name": "Xbox"
+    },
+    {
+      "id": 3,
+      "name": "PlayStation"
+    },
+    {
+      "id": 4,
+      "name": "Switch"
+    },
+    {
+      "id": 5,
+      "name": "Android/iOS"
+    },
+    {
+      "id": 6,
+      "name": "Other"
+    }
+  ],
+  "gamePlatforms": [
+    {
+      "id": 1,
+      "gameId": 1,
+      "platformId": 1
+    },
+    {
+      "id": 2,
+      "gameId": 1,
+      "platformId": 2
+    },
+    {
+      "id": 3,
+      "gameId": 1,
+      "platformId": 3
+    },
+    {
+      "id": 4,
+      "gameId": 1,
+      "platformId": 4
+    },
+    {
+      "id": 5,
+      "gameId": 2,
+      "platformId": 1
+    },
+    {
+      "id": 6,
+      "gameId": 2,
+      "platformId": 2
+    },
+    {
+      "id": 7,
+      "gameId": 2,
+      "platformId": 3
+    },
+    {
+      "id": 8,
+      "gameId": 2,
+      "platformId": 4
+    },
+    {
+      "id": 9,
+      "gameId": 2,
+      "platformId": 5
+    },
+    {
+      "id": 10,
+      "gameId": 3,
+      "platformId": 1
+    },
+    {
+      "id": 11,
+      "gameId": 3,
+      "platformId": 2
+    },
+    {
+      "id": 12,
+      "gameId": 3,
+      "platformId": 3
+    },
+    {
+      "id": 13,
+      "gameId": 3,
+      "platformId": 4
+    },
+    {
+      "id": 14,
+      "gameId": 3,
+      "platformId": 5
+    }
+  ],
+  "games": [
+    {
+      "id": 1,
+      "name": "The Witcher 3",
+      "userId": 2,
+      "current": true,
+      "multiplayerCapable": false
+    },
+    {
+      "id": 2,
+      "name": "Civilization VI",
+      "userId": 2,
+      "current": false,
+      "multiplayerCapable": true
+    },
+    {
+      "id": 3,
+      "name": "Stardew Valley",
+      "userId": 2,
+      "current": true,
+      "multiplayerCapable": true
+    },
+    {
+      "name": "Zelda: Breath of the Wild",
+      "userId": 2,
+      "current": false,
+      "multiplayerCapable": false,
+      "id": 4
+    },
+    {
+      "name": "Test 2",
+      "userId": 2,
+      "current": true,
+      "multiplayerCapable": true,
+      "id": 5
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "tag": "RPG"
+    },
+    {
+      "id": 2,
+      "tag": "Open world"
+    },
+    {
+      "id": 3,
+      "tag": "Strategy"
+    },
+    {
+      "id": 4,
+      "tag": "Casual"
+    },
+    {
+      "id": 5,
+      "tag": "Simulator"
+    }
+  ],
+  "taggedGames": [
+    {
+      "id": 1,
+      "gameId": 1,
+      "tagId": 1
+    },
+    {
+      "id": 2,
+      "gameId": 1,
+      "tagId": 2
+    },
+    {
+      "id": 3,
+      "gameId": 2,
+      "tagId": 3
+    },
+    {
+      "id": 4,
+      "gameId": 3,
+      "tagId": 4
+    },
+    {
+      "id": 5,
+      "gameId": 3,
+      "tagId": 5
+    },
+    {
+      "id": 6,
+      "gameId": 3,
+      "tagId": 1
+    }
+  ]
 }
