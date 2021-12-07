@@ -130,20 +130,6 @@
       "userId": 2,
       "current": true,
       "multiplayerCapable": true
-    },
-    {
-      "name": "Zelda: Breath of the Wild",
-      "userId": 2,
-      "current": false,
-      "multiplayerCapable": false,
-      "id": 4
-    },
-    {
-      "name": "Test 2",
-      "userId": 2,
-      "current": true,
-      "multiplayerCapable": true,
-      "id": 5
     }
   ],
   "tags": [
