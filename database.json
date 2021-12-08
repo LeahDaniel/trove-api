@@ -44,21 +44,6 @@
       "platformId": 1
     },
     {
-      "id": 2,
-      "gameId": 1,
-      "platformId": 2
-    },
-    {
-      "id": 3,
-      "gameId": 1,
-      "platformId": 3
-    },
-    {
-      "id": 4,
-      "gameId": 1,
-      "platformId": 4
-    },
-    {
       "id": 5,
       "gameId": 2,
       "platformId": 1
@@ -87,26 +72,6 @@
       "id": 10,
       "gameId": 3,
       "platformId": 1
-    },
-    {
-      "id": 11,
-      "gameId": 3,
-      "platformId": 2
-    },
-    {
-      "id": 12,
-      "gameId": 3,
-      "platformId": 3
-    },
-    {
-      "id": 13,
-      "gameId": 3,
-      "platformId": 4
-    },
-    {
-      "id": 14,
-      "gameId": 3,
-      "platformId": 5
     }
   ],
   "games": [
