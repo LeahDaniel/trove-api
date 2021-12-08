@@ -71,7 +71,7 @@
     {
       "id": 10,
       "gameId": 3,
-      "platformId": 1
+      "platformId": 4
     }
   ],
   "games": [
@@ -117,6 +117,22 @@
     {
       "id": 5,
       "tag": "Simulator"
+    },
+    {
+      "tag": "first-person shooter",
+      "id": 6
+    },
+    {
+      "tag": "puzzle",
+      "id": 7
+    },
+    {
+      "tag": "horror",
+      "id": 8
+    },
+    {
+      "tag": "side-scroller",
+      "id": 9
     }
   ],
   "taggedGames": [
@@ -149,6 +165,11 @@
       "id": 6,
       "gameId": 3,
       "tagId": 1
+    },
+    {
+      "tagId": 8,
+      "gameId": 4,
+      "id": 7
     }
   ]
 }
