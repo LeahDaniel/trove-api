@@ -39,11 +39,6 @@
   ],
   "gamePlatforms": [
     {
-      "id": 1,
-      "gameId": 1,
-      "platformId": 1
-    },
-    {
       "id": 5,
       "gameId": 2,
       "platformId": 1
@@ -69,18 +64,23 @@
       "platformId": 5
     },
     {
-      "id": 10,
+      "id": 11,
+      "gameId": 1,
+      "platformId": 1
+    },
+    {
       "gameId": 3,
-      "platformId": 4
+      "platformId": 1,
+      "id": 12
     }
   ],
   "games": [
     {
-      "id": 1,
       "name": "The Witcher 3",
       "userId": 2,
       "current": true,
-      "multiplayerCapable": false
+      "multiplayerCapable": false,
+      "id": 1
     },
     {
       "id": 2,
@@ -90,11 +90,11 @@
       "multiplayerCapable": true
     },
     {
-      "id": 3,
       "name": "Stardew Valley",
       "userId": 2,
       "current": true,
-      "multiplayerCapable": true
+      "multiplayerCapable": true,
+      "id": 3
     }
   ],
   "tags": [
@@ -137,39 +137,34 @@
   ],
   "taggedGames": [
     {
-      "id": 1,
-      "gameId": 1,
-      "tagId": 1
-    },
-    {
-      "id": 2,
-      "gameId": 1,
-      "tagId": 2
-    },
-    {
       "id": 3,
       "gameId": 2,
       "tagId": 3
     },
     {
-      "id": 4,
-      "gameId": 3,
-      "tagId": 4
-    },
-    {
-      "id": 5,
-      "gameId": 3,
-      "tagId": 5
-    },
-    {
-      "id": 6,
-      "gameId": 3,
-      "tagId": 1
-    },
-    {
-      "tagId": 8,
-      "gameId": 4,
+      "tagId": 1,
+      "gameId": 1,
       "id": 7
+    },
+    {
+      "tagId": 2,
+      "gameId": 1,
+      "id": 8
+    },
+    {
+      "tagId": 4,
+      "gameId": 3,
+      "id": 9
+    },
+    {
+      "tagId": 5,
+      "gameId": 3,
+      "id": 10
+    },
+    {
+      "tagId": 1,
+      "gameId": 3,
+      "id": 11
     }
   ]
 }
