@@ -39,31 +39,6 @@
   ],
   "gamePlatforms": [
     {
-      "id": 5,
-      "gameId": 2,
-      "platformId": 1
-    },
-    {
-      "id": 6,
-      "gameId": 2,
-      "platformId": 2
-    },
-    {
-      "id": 7,
-      "gameId": 2,
-      "platformId": 3
-    },
-    {
-      "id": 8,
-      "gameId": 2,
-      "platformId": 4
-    },
-    {
-      "id": 9,
-      "gameId": 2,
-      "platformId": 5
-    },
-    {
       "id": 11,
       "gameId": 1,
       "platformId": 1
@@ -72,6 +47,16 @@
       "gameId": 3,
       "platformId": 1,
       "id": 12
+    },
+    {
+      "gameId": 2,
+      "platformId": 1,
+      "id": 13
+    },
+    {
+      "gameId": 2,
+      "platformId": 2,
+      "id": 14
     }
   ],
   "games": [
@@ -83,11 +68,11 @@
       "id": 1
     },
     {
-      "id": 2,
       "name": "Civilization VI",
       "userId": 2,
       "current": false,
-      "multiplayerCapable": true
+      "multiplayerCapable": true,
+      "id": 2
     },
     {
       "name": "Stardew Valley",
@@ -100,47 +85,62 @@
   "tags": [
     {
       "id": 1,
+      "userId": 2,
       "tag": "RPG"
     },
     {
       "id": 2,
+      "userId": 2,
       "tag": "Open world"
     },
     {
       "id": 3,
+      "userId": 2,
       "tag": "Strategy"
     },
     {
       "id": 4,
+      "userId": 2,
       "tag": "Casual"
     },
     {
       "id": 5,
+      "userId": 2,
       "tag": "Simulator"
     },
     {
       "tag": "first-person shooter",
+      "userId": 2,
       "id": 6
+      
     },
     {
       "tag": "puzzle",
+      "userId": 2,
       "id": 7
     },
     {
       "tag": "horror",
+      "userId": 2,
       "id": 8
     },
     {
       "tag": "side-scroller",
+      "userId": 2,
       "id": 9
+    },
+    {
+      "tag": "test",
+      "userId": 2,
+      "id": 10
+    },
+    {
+      "tag": "something",
+      "userId": 2,
+      "id": 11
     }
   ],
   "taggedGames": [
-    {
-      "id": 3,
-      "gameId": 2,
-      "tagId": 3
-    },
     {
       "tagId": 1,
       "gameId": 1,
@@ -165,6 +165,11 @@
       "tagId": 1,
       "gameId": 3,
       "id": 11
+    },
+    {
+      "tagId": 3,
+      "gameId": 2,
+      "id": 12
     }
   ]
 }
