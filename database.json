@@ -95,27 +95,6 @@
       "current": true,
       "multiplayerCapable": true,
       "id": 3
-    },
-    {
-      "name": "Test 1",
-      "userId": 2,
-      "current": true,
-      "multiplayerCapable": true,
-      "id": 4
-    },
-    {
-      "name": "Test 2",
-      "userId": 2,
-      "current": true,
-      "multiplayerCapable": false,
-      "id": 5
-    },
-    {
-      "name": "Test 3",
-      "userId": 2,
-      "current": true,
-      "multiplayerCapable": true,
-      "id": 6
     }
   ],
   "tags": [
@@ -127,22 +106,22 @@
     {
       "id": 2,
       "userId": 2,
-      "tag": "Open world"
+      "tag": "open world"
     },
     {
       "id": 3,
       "userId": 2,
-      "tag": "Strategy"
+      "tag": "strategy"
     },
     {
       "id": 4,
       "userId": 2,
-      "tag": "Casual"
+      "tag": "casual"
     },
     {
       "id": 5,
       "userId": 2,
-      "tag": "Simulator"
+      "tag": "simulator"
     },
     {
       "tag": "first-person shooter",
@@ -165,39 +144,24 @@
       "id": 9
     },
     {
-      "tag": "Reality",
+      "tag": "reality",
       "userId": 2,
       "id": 10
     },
     {
-      "tag": "Comedy",
+      "tag": "comedy",
       "userId": 2,
       "id": 11
     },
     {
-      "tag": "Drama",
+      "tag": "drama",
       "userId": 2,
       "id": 12
     },
     {
-      "tag": "test",
-      "userId": 2,
-      "id": 13
-    },
-    {
-      "tag": "Essay",
-      "userId": 2,
-      "id": 14
-    },
-    {
-      "tag": "Education",
+      "tag": "Educational",
       "userId": 2,
       "id": 15
-    },
-    {
-      "tag": "Feminism",
-      "userId": 2,
-      "id": 16
     }
   ],
   "taggedGames": [
@@ -230,65 +194,15 @@
       "tagId": 3,
       "gameId": 2,
       "id": 12
-    },
-    {
-      "tagId": 8,
-      "gameId": 4,
-      "id": 13
-    },
-    {
-      "tagId": 1,
-      "gameId": 4,
-      "id": 14
-    },
-    {
-      "tagId": 6,
-      "gameId": 4,
-      "id": 15
-    },
-    {
-      "tagId": 8,
-      "gameId": 5,
-      "id": 16
-    },
-    {
-      "tagId": 1,
-      "gameId": 5,
-      "id": 17
-    },
-    {
-      "tagId": 6,
-      "gameId": 5,
-      "id": 18
-    },
-    {
-      "tagId": 11,
-      "gameId": 5,
-      "id": 19
-    },
-    {
-      "tagId": 8,
-      "gameId": 6,
-      "id": 20
-    },
-    {
-      "tagId": 1,
-      "gameId": 6,
-      "id": 21
-    },
-    {
-      "tagId": 6,
-      "gameId": 6,
-      "id": 22
     }
   ],
   "shows": [
     {
+      "id": 1,
       "name": "Psych",
       "userId": 2,
-      "current": false,
-      "streamingServiceId": 1,
-      "id": 1
+      "current": true,
+      "streamingServiceId": 2
     },
     {
       "id": 2,
@@ -303,37 +217,18 @@
       "current": false,
       "streamingServiceId": 3,
       "id": 3
-    },
-    {
-      "name": "Test show",
-      "userId": 2,
-      "current": true,
-      "streamingServiceId": 5,
-      "id": 5
-    },
-    {
-      "name": "Test ",
-      "userId": 2,
-      "current": false,
-      "streamingServiceId": 1,
-      "id": 6
     }
   ],
   "taggedShows": [
     {
+      "id": 1,
+      "showId": 1,
+      "tagId": 11
+    },
+    {
       "id": 2,
       "showId": 2,
       "tagId": 10
-    },
-    {
-      "tagId": 12,
-      "showId": 5,
-      "id": 5
-    },
-    {
-      "tagId": 11,
-      "showId": 5,
-      "id": 6
     },
     {
       "tagId": 10,
@@ -344,16 +239,6 @@
       "tagId": 11,
       "showId": 3,
       "id": 8
-    },
-    {
-      "tagId": 11,
-      "showId": 1,
-      "id": 9
-    },
-    {
-      "tagId": 13,
-      "showId": 6,
-      "id": 10
     }
   ],
   "streamingServices": [
@@ -445,36 +330,9 @@
       "id": 9
     },
     {
-      "tagId": 14,
-      "id": 10
-    },
-    {
-      "tagId": 15,
-      "id": 11
-    },
-    {
-      "tagId": 16,
-      "id": 12
-    },
-    {
-      "tagId": 16,
-      "bookId": 2,
-      "id": 13
-    },
-    {
       "tagId": 15,
       "bookId": 2,
       "id": 14
-    },
-    {
-      "tagId": 14,
-      "bookId": 2,
-      "id": 15
-    },
-    {
-      "tagId": 13,
-      "bookId": 2,
-      "id": 16
     }
   ]
 }
