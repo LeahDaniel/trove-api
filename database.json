@@ -37,214 +37,16 @@
       "name": "Other"
     }
   ],
-  "gamePlatforms": [
-    {
-      "id": 11,
-      "gameId": 1,
-      "platformId": 1
-    },
-    {
-      "gameId": 3,
-      "platformId": 1,
-      "id": 12
-    },
-    {
-      "gameId": 2,
-      "platformId": 1,
-      "id": 13
-    },
-    {
-      "gameId": 2,
-      "platformId": 2,
-      "id": 14
-    },
-    {
-      "gameId": 4,
-      "platformId": 2,
-      "id": 15
-    },
-    {
-      "gameId": 5,
-      "platformId": 2,
-      "id": 16
-    },
-    {
-      "gameId": 6,
-      "platformId": 1,
-      "id": 17
-    }
-  ],
-  "games": [
-    {
-      "name": "The Witcher 3",
-      "userId": 2,
-      "current": true,
-      "multiplayerCapable": false,
-      "id": 1
-    },
-    {
-      "name": "Civilization VI",
-      "userId": 2,
-      "current": false,
-      "multiplayerCapable": true,
-      "id": 2
-    },
-    {
-      "name": "Stardew Valley",
-      "userId": 2,
-      "current": true,
-      "multiplayerCapable": true,
-      "id": 3
-    }
-  ],
-  "tags": [
-    {
-      "id": 1,
-      "userId": 2,
-      "tag": "RPG"
-    },
-    {
-      "id": 2,
-      "userId": 2,
-      "tag": "open world"
-    },
-    {
-      "id": 3,
-      "userId": 2,
-      "tag": "strategy"
-    },
-    {
-      "id": 4,
-      "userId": 2,
-      "tag": "casual"
-    },
-    {
-      "id": 5,
-      "userId": 2,
-      "tag": "simulator"
-    },
-    {
-      "tag": "first-person shooter",
-      "userId": 2,
-      "id": 6
-    },
-    {
-      "tag": "puzzle",
-      "userId": 2,
-      "id": 7
-    },
-    {
-      "tag": "horror",
-      "userId": 2,
-      "id": 8
-    },
-    {
-      "tag": "side-scroller",
-      "userId": 2,
-      "id": 9
-    },
-    {
-      "tag": "reality",
-      "userId": 2,
-      "id": 10
-    },
-    {
-      "tag": "comedy",
-      "userId": 2,
-      "id": 11
-    },
-    {
-      "tag": "drama",
-      "userId": 2,
-      "id": 12
-    },
-    {
-      "tag": "Educational",
-      "userId": 2,
-      "id": 15
-    }
-  ],
-  "taggedGames": [
-    {
-      "tagId": 1,
-      "gameId": 1,
-      "id": 7
-    },
-    {
-      "tagId": 2,
-      "gameId": 1,
-      "id": 8
-    },
-    {
-      "tagId": 4,
-      "gameId": 3,
-      "id": 9
-    },
-    {
-      "tagId": 5,
-      "gameId": 3,
-      "id": 10
-    },
-    {
-      "tagId": 1,
-      "gameId": 3,
-      "id": 11
-    },
-    {
-      "tagId": 3,
-      "gameId": 2,
-      "id": 12
-    }
-  ],
-  "shows": [
-    {
-      "id": 1,
-      "name": "Psych",
-      "userId": 2,
-      "current": true,
-      "streamingServiceId": 2
-    },
-    {
-      "id": 2,
-      "name": "Love Island",
-      "userId": 2,
-      "current": true,
-      "streamingServiceId": 2
-    },
-    {
-      "name": "King of the Nerds",
-      "userId": 2,
-      "current": false,
-      "streamingServiceId": 3,
-      "id": 3
-    }
-  ],
-  "taggedShows": [
-    {
-      "id": 1,
-      "showId": 1,
-      "tagId": 11
-    },
-    {
-      "id": 2,
-      "showId": 2,
-      "tagId": 10
-    },
-    {
-      "tagId": 10,
-      "showId": 3,
-      "id": 7
-    },
-    {
-      "tagId": 11,
-      "showId": 3,
-      "id": 8
-    }
-  ],
+  "gamePlatforms": [],
+  "games": [],
+  "tags": [],
+  "taggedGames": [],
+  "shows": [],
+  "taggedShows": [],
   "streamingServices": [
     {
       "id": 1,
-      "service": "Netflix"
+      "service": "Disney+"
     },
     {
       "id": 2,
@@ -256,83 +58,22 @@
     },
     {
       "id": 4,
+      "service": "Netflix"
+    },
+    {
+      "id": 5,
       "service": "Prime"
     },
     {
-      "id": 5,
+      "id": 6,
       "service": "Youtube TV"
+    },
+    {
+      "id": 7,
+      "service": "Other"
     }
   ],
-  "authors": [
-    {
-      "id": 1,
-      "name": "Edgar Allen Poe",
-      "userId": 2
-    },
-    {
-      "id": 2,
-      "name": "Ernest Hemingway",
-      "userId": 2
-    },
-    {
-      "id": 3,
-      "name": "Mark Twain",
-      "userId": 2
-    },
-    {
-      "id": 4,
-      "name": "F. Scott Fitzgerald",
-      "userId": 2
-    },
-    {
-      "id": 5,
-      "name": "Virginia Woolf",
-      "userId": 2
-    }
-  ],
-  "books": [
-    {
-      "name": "For Whom the Bell Tolls",
-      "userId": 2,
-      "current": false,
-      "authorId": 2,
-      "id": 1
-    },
-    {
-      "name": "The Great Gasby",
-      "userId": 2,
-      "current": false,
-      "authorId": 4,
-      "id": 3
-    },
-    {
-      "name": "A Room of One's Own",
-      "userId": 2,
-      "current": false,
-      "authorId": 5,
-      "id": 2
-    }
-  ],
-  "taggedBooks": [
-    {
-      "tagId": 10,
-      "bookId": 3,
-      "id": 7
-    },
-    {
-      "tagId": 11,
-      "bookId": 3,
-      "id": 8
-    },
-    {
-      "tagId": 11,
-      "bookId": 1,
-      "id": 9
-    },
-    {
-      "tagId": 15,
-      "bookId": 2,
-      "id": 14
-    }
-  ]
+  "authors": [],
+  "books": [],
+  "taggedBooks": []
 }
