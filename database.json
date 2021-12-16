@@ -1,5 +1,16 @@
 {
-  "users": [],
+  "users": [
+    {
+      "name": "Leah Daniel",
+      "email": "leah@email.com",
+      "id": 1
+    },
+    {
+      "name": "Mitchell M",
+      "email": "mitchell@email.com",
+      "id": 2
+    }
+  ],
   "platforms": [
     {
       "id": 1,
@@ -26,12 +37,537 @@
       "name": "Other"
     }
   ],
-  "gamePlatforms": [],
-  "games": [],
-  "tags": [],
-  "taggedGames": [],
-  "shows": [],
-  "taggedShows": [],
+  "gamePlatforms": [
+    {
+      "gameId": 1,
+      "platformId": 1,
+      "id": 1
+    },
+    {
+      "gameId": 2,
+      "platformId": 1,
+      "id": 2
+    },
+    {
+      "gameId": 3,
+      "platformId": 2,
+      "id": 3
+    },
+    {
+      "gameId": 4,
+      "platformId": 4,
+      "id": 4
+    },
+    {
+      "gameId": 5,
+      "platformId": 1,
+      "id": 5
+    },
+    {
+      "gameId": 6,
+      "platformId": 3,
+      "id": 6
+    }
+  ],
+  "games": [
+    {
+      "name": "Fallout: New Vegas",
+      "userId": 2,
+      "current": true,
+      "multiplayerCapable": false,
+      "id": 1
+    },
+    {
+      "name": "Hades",
+      "userId": 2,
+      "current": false,
+      "multiplayerCapable": false,
+      "id": 2
+    },
+    {
+      "name": "XCOM: Enemy Unknown",
+      "userId": 2,
+      "current": true,
+      "multiplayerCapable": false,
+      "id": 3
+    },
+    {
+      "name": "Pokemon Brilliant Diamond",
+      "userId": 2,
+      "current": true,
+      "multiplayerCapable": true,
+      "id": 4
+    },
+    {
+      "name": "Divinity: Original Sin 2",
+      "userId": 2,
+      "current": false,
+      "multiplayerCapable": false,
+      "id": 5
+    },
+    {
+      "name": "The Witcher 2",
+      "userId": 2,
+      "current": false,
+      "multiplayerCapable": false,
+      "id": 6
+    }
+  ],
+  "tags": [
+    {
+      "tag": "Adventure",
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "tag": "Comedy",
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "tag": "Drama",
+      "userId": 1,
+      "id": 5
+    },
+    {
+      "tag": "Fantasy",
+      "userId": 1,
+      "id": 6
+    },
+    {
+      "tag": "Mystery",
+      "userId": 1,
+      "id": 7
+    },
+    {
+      "tag": "Historical",
+      "userId": 1,
+      "id": 8
+    },
+    {
+      "tag": "Horror",
+      "userId": 1,
+      "id": 9
+    },
+    {
+      "tag": "Romance",
+      "userId": 1,
+      "id": 10
+    },
+    {
+      "tag": "Science Fiction",
+      "userId": 1,
+      "id": 11
+    },
+    {
+      "tag": "Thriller",
+      "userId": 1,
+      "id": 12
+    },
+    {
+      "tag": "Stealth",
+      "userId": 1,
+      "id": 16
+    },
+    {
+      "tag": "Survival",
+      "userId": 1,
+      "id": 17
+    },
+    {
+      "tag": "Rhythm",
+      "userId": 1,
+      "id": 18
+    },
+    {
+      "tag": "RPG",
+      "userId": 1,
+      "id": 20
+    },
+    {
+      "tag": "Life Sim",
+      "userId": 1,
+      "id": 22
+    },
+    {
+      "tag": "Construction and Management Sim",
+      "userId": 1,
+      "id": 23
+    },
+    {
+      "tag": "Strategy",
+      "userId": 1,
+      "id": 25
+    },
+    {
+      "tag": "Turn-based Strategy",
+      "userId": 1,
+      "id": 27
+    },
+    {
+      "tag": "Casual",
+      "userId": 1,
+      "id": 31
+    },
+    {
+      "tag": "Board/Card Game",
+      "userId": 1,
+      "id": 32
+    },
+    {
+      "tag": "Idle",
+      "userId": 1,
+      "id": 34
+    },
+    {
+      "tag": "Puzzle",
+      "userId": 1,
+      "id": 35
+    },
+    {
+      "tag": "Logic",
+      "userId": 1,
+      "id": 36
+    },
+    {
+      "tag": "Trivia",
+      "userId": 1,
+      "id": 38
+    },
+    {
+      "tag": "Educational",
+      "userId": 1,
+      "id": 39
+    },
+    {
+      "tag": "Sandbox",
+      "userId": 1,
+      "id": 40
+    },
+    {
+      "tag": "Open world",
+      "userId": 1,
+      "id": 41
+    },
+    {
+      "tag": "Creative",
+      "userId": 1,
+      "id": 42
+    },
+    {
+      "tag": "Adventure",
+      "userId": 2,
+      "id": 43
+    },
+    {
+      "tag": "Comedy",
+      "userId": 2,
+      "id": 44
+    },
+    {
+      "tag": "Action",
+      "userId": 2,
+      "id": 45
+    },
+    {
+      "tag": "Fantasy",
+      "userId": 2,
+      "id": 46
+    },
+    {
+      "tag": "Drama",
+      "userId": 2,
+      "id": 47
+    },
+    {
+      "tag": "Mystery",
+      "userId": 2,
+      "id": 48
+    },
+    {
+      "tag": "Historical",
+      "userId": 2,
+      "id": 49
+    },
+    {
+      "tag": "Horror",
+      "userId": 2,
+      "id": 50
+    },
+    {
+      "tag": "Romance",
+      "userId": 2,
+      "id": 51
+    },
+    {
+      "tag": "Science Fiction",
+      "userId": 2,
+      "id": 52
+    },
+    {
+      "tag": "Thriller",
+      "userId": 2,
+      "id": 53
+    },
+    {
+      "tag": "Western",
+      "userId": 2,
+      "id": 54
+    },
+    {
+      "tag": "Platformer",
+      "userId": 2,
+      "id": 55
+    },
+    {
+      "tag": "Shooter",
+      "userId": 2,
+      "id": 56
+    },
+    {
+      "tag": "Survival",
+      "userId": 2,
+      "id": 57
+    },
+    {
+      "tag": "Battle Royale",
+      "userId": 2,
+      "id": 58
+    },
+    {
+      "tag": "RPG",
+      "userId": 2,
+      "id": 59
+    },
+    {
+      "tag": "Simulator",
+      "userId": 2,
+      "id": 60
+    },
+    {
+      "tag": "Strategy",
+      "userId": 2,
+      "id": 61
+    },
+    {
+      "tag": "Esports",
+      "userId": 2,
+      "id": 62
+    },
+    {
+      "tag": "Casual",
+      "userId": 2,
+      "id": 63
+    },
+    {
+      "tag": "Educational",
+      "userId": 2,
+      "id": 64
+    },
+    {
+      "tag": "Sandbox",
+      "userId": 2,
+      "id": 65
+    },
+    {
+      "tag": "Open world",
+      "userId": 2,
+      "id": 66
+    },
+    {
+      "tag": "Novel",
+      "userId": 2,
+      "id": 67
+    },
+    {
+      "tag": "Allegory",
+      "userId": 2,
+      "id": 68
+    },
+    {
+      "tag": "Fiction",
+      "userId": 2,
+      "id": 69
+    },
+    {
+      "tag": "Epic",
+      "userId": 2,
+      "id": 70
+    },
+    {
+      "tag": "Poetry",
+      "userId": 2,
+      "id": 71
+    },
+    {
+      "tag": "Reality TV",
+      "userId": 2,
+      "id": 72
+    },
+    {
+      "tag": "Rougelike",
+      "userId": 2,
+      "id": 73
+    }
+  ],
+  "taggedGames": [
+    {
+      "tagId": 59,
+      "gameId": 1,
+      "id": 1
+    },
+    {
+      "tagId": 73,
+      "gameId": 2,
+      "id": 2
+    },
+    {
+      "tagId": 61,
+      "gameId": 3,
+      "id": 3
+    },
+    {
+      "tagId": 43,
+      "gameId": 4,
+      "id": 4
+    },
+    {
+      "tagId": 59,
+      "gameId": 4,
+      "id": 5
+    },
+    {
+      "tagId": 59,
+      "gameId": 5,
+      "id": 6
+    },
+    {
+      "tagId": 46,
+      "gameId": 5,
+      "id": 7
+    },
+    {
+      "tagId": 43,
+      "gameId": 5,
+      "id": 8
+    },
+    {
+      "tagId": 59,
+      "gameId": 6,
+      "id": 9
+    },
+    {
+      "tagId": 46,
+      "gameId": 6,
+      "id": 10
+    },
+    {
+      "tagId": 43,
+      "gameId": 6,
+      "id": 11
+    },
+    {
+      "tagId": 45,
+      "gameId": 6,
+      "id": 12
+    }
+  ],
+  "shows": [
+    {
+      "name": "The Witcher",
+      "userId": 2,
+      "current": true,
+      "streamingServiceId": 4,
+      "id": 1
+    },
+    {
+      "name": "Psych",
+      "userId": 2,
+      "current": true,
+      "streamingServiceId": 5,
+      "id": 2
+    },
+    {
+      "name": "Love Island",
+      "userId": 2,
+      "current": true,
+      "streamingServiceId": 3,
+      "id": 3
+    },
+    {
+      "name": "Neon Genesis Evangelion",
+      "userId": 2,
+      "current": false,
+      "streamingServiceId": 5,
+      "id": 4
+    },
+    {
+      "name": "Loki",
+      "userId": 2,
+      "current": false,
+      "streamingServiceId": 1,
+      "id": 5
+    },
+    {
+      "name": "IT Crowd",
+      "userId": 2,
+      "current": false,
+      "streamingServiceId": 4,
+      "id": 6
+    }
+  ],
+  "taggedShows": [
+    {
+      "tagId": 46,
+      "showId": 1,
+      "id": 1
+    },
+    {
+      "tagId": 50,
+      "showId": 1,
+      "id": 2
+    },
+    {
+      "tagId": 44,
+      "showId": 2,
+      "id": 3
+    },
+    {
+      "tagId": 72,
+      "showId": 3,
+      "id": 4
+    },
+    {
+      "tagId": 45,
+      "showId": 4,
+      "id": 5
+    },
+    {
+      "tagId": 43,
+      "showId": 4,
+      "id": 6
+    },
+    {
+      "tagId": 46,
+      "showId": 5,
+      "id": 7
+    },
+    {
+      "tagId": 52,
+      "showId": 5,
+      "id": 8
+    },
+    {
+      "tagId": 45,
+      "showId": 5,
+      "id": 9
+    },
+    {
+      "tagId": 44,
+      "showId": 6,
+      "id": 10
+    }
+  ],
   "streamingServices": [
     {
       "id": 1,
@@ -62,7 +598,132 @@
       "service": "Other"
     }
   ],
-  "authors": [],
-  "books": [],
-  "taggedBooks": []
+  "authors": [
+    {
+      "name": "George Orwell",
+      "userId": 2,
+      "id": 1
+    },
+    {
+      "name": "Harper Lee",
+      "userId": 2,
+      "id": 2
+    },
+    {
+      "name": "Stephen King",
+      "userId": 2,
+      "id": 3
+    },
+    {
+      "name": "William Golding",
+      "userId": 2,
+      "id": 4
+    },
+    {
+      "name": "Mary Shelley",
+      "userId": 2,
+      "id": 5
+    },
+    {
+      "name": "Homer",
+      "userId": 2,
+      "id": 6
+    }
+  ],
+  "books": [
+    {
+      "name": "1984",
+      "userId": 2,
+      "current": false,
+      "authorId": 1,
+      "id": 1
+    },
+    {
+      "name": "To Kill A Mockingbird",
+      "userId": 2,
+      "current": true,
+      "authorId": 2,
+      "id": 2
+    },
+    {
+      "name": "It",
+      "userId": 2,
+      "current": false,
+      "authorId": 3,
+      "id": 3
+    },
+    {
+      "name": "Lord of the Flies",
+      "userId": 2,
+      "current": true,
+      "authorId": 4,
+      "id": 4
+    },
+    {
+      "name": "Frankenstein",
+      "userId": 2,
+      "current": false,
+      "authorId": 5,
+      "id": 5
+    },
+    {
+      "name": "The Iliad",
+      "userId": 2,
+      "current": true,
+      "authorId": 6,
+      "id": 6
+    }
+  ],
+  "taggedBooks": [
+    {
+      "tagId": 52,
+      "bookId": 1,
+      "id": 1
+    },
+    {
+      "tagId": 50,
+      "bookId": 3,
+      "id": 3
+    },
+    {
+      "tagId": 68,
+      "bookId": 4,
+      "id": 4
+    },
+    {
+      "tagId": 69,
+      "bookId": 4,
+      "id": 5
+    },
+    {
+      "tagId": 67,
+      "bookId": 2,
+      "id": 6
+    },
+    {
+      "tagId": 69,
+      "bookId": 2,
+      "id": 7
+    },
+    {
+      "tagId": 50,
+      "bookId": 5,
+      "id": 8
+    },
+    {
+      "tagId": 46,
+      "bookId": 5,
+      "id": 9
+    },
+    {
+      "tagId": 70,
+      "bookId": 6,
+      "id": 10
+    },
+    {
+      "tagId": 71,
+      "bookId": 6,
+      "id": 11
+    }
+  ]
 }
