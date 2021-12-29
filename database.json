@@ -676,11 +676,6 @@
   ],
   "taggedBooks": [
     {
-      "tagId": 52,
-      "bookId": 1,
-      "id": 1
-    },
-    {
       "tagId": 50,
       "bookId": 3,
       "id": 3
@@ -724,6 +719,14 @@
       "tagId": 71,
       "bookId": 6,
       "id": 11
+    },
+    {
+      "tagId": 52,
+      "bookId": 1,
+      "id": 12
     }
-  ]
+  ],
+  "gameRecommendations": [],
+  "showRecommendations": [],
+  "bookRecommendations": []
 }
