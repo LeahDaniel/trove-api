@@ -8,7 +8,7 @@
 npm i json-server
 ```
 
-<p style="font-size: 20px; font-weight: 500;">• Trove Repository</p>
+<p style="font-size: 20px; font-weight: 500;">Trove Repository</p>
 
 <a href="https://github.com/LeahDaniel/trove" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/-Click%20Here-blue" alt="Trove Client-Side Repository" style="height: 30px !important; width: 100px !important;" /></a>
 
