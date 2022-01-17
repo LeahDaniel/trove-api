@@ -44,26 +44,6 @@
       "id": 11
     },
     {
-      "gameId": 2,
-      "platformId": 1,
-      "id": 12
-    },
-    {
-      "gameId": 2,
-      "platformId": 2,
-      "id": 13
-    },
-    {
-      "gameId": 2,
-      "platformId": 3,
-      "id": 14
-    },
-    {
-      "gameId": 2,
-      "platformId": 4,
-      "id": 15
-    },
-    {
       "gameId": 6,
       "platformId": 1,
       "id": 16
@@ -74,34 +54,9 @@
       "id": 17
     },
     {
-      "gameId": 5,
-      "platformId": 2,
-      "id": 18
-    },
-    {
-      "gameId": 5,
-      "platformId": 3,
-      "id": 19
-    },
-    {
-      "gameId": 5,
-      "platformId": 1,
-      "id": 20
-    },
-    {
-      "gameId": 5,
-      "platformId": 4,
-      "id": 21
-    },
-    {
       "gameId": 4,
       "platformId": 4,
       "id": 22
-    },
-    {
-      "gameId": 3,
-      "platformId": 2,
-      "id": 23
     },
     {
       "gameId": 10,
@@ -124,44 +79,89 @@
       "id": 29
     },
     {
-      "gameId": 14,
-      "platformId": 1,
-      "id": 30
-    },
-    {
-      "gameId": 14,
-      "platformId": 3,
-      "id": 31
-    },
-    {
       "gameId": 9,
       "platformId": 1,
       "id": 32
     },
     {
-      "gameId": 15,
+      "gameId": 14,
       "platformId": 1,
       "id": 33
     },
     {
-      "gameId": 15,
-      "platformId": 2,
+      "gameId": 14,
+      "platformId": 3,
       "id": 34
     },
     {
-      "gameId": 15,
-      "platformId": 5,
+      "gameId": 14,
+      "platformId": 2,
       "id": 35
+    },
+    {
+      "gameId": 14,
+      "platformId": 4,
+      "id": 36
+    },
+    {
+      "gameId": 14,
+      "platformId": 5,
+      "id": 37
+    },
+    {
+      "gameId": 3,
+      "platformId": 2,
+      "id": 39
+    },
+    {
+      "gameId": 3,
+      "platformId": 3,
+      "id": 40
+    },
+    {
+      "gameId": 3,
+      "platformId": 1,
+      "id": 41
+    },
+    {
+      "gameId": 5,
+      "platformId": 2,
+      "id": 45
+    },
+    {
+      "gameId": 5,
+      "platformId": 1,
+      "id": 46
+    },
+    {
+      "gameId": 5,
+      "platformId": 4,
+      "id": 47
+    },
+    {
+      "gameId": 5,
+      "platformId": 3,
+      "id": 48
+    },
+    {
+      "gameId": 15,
+      "platformId": 1,
+      "id": 49
     },
     {
       "gameId": 15,
       "platformId": 3,
-      "id": 36
+      "id": 50
+    },
+    {
+      "gameId": 15,
+      "platformId": 2,
+      "id": 51
     },
     {
       "gameId": 15,
       "platformId": 4,
-      "id": 37
+      "id": 52
     }
   ],
   "games": [
@@ -173,16 +173,9 @@
       "id": 1
     },
     {
-      "name": "Hades",
-      "userId": 2,
-      "current": false,
-      "multiplayerCapable": false,
-      "id": 2
-    },
-    {
       "name": "XCOM: Enemy Unknown",
       "userId": 2,
-      "current": true,
+      "current": false,
       "multiplayerCapable": false,
       "id": 3
     },
@@ -243,17 +236,17 @@
       "id": 13
     },
     {
-      "name": "Five Nights at Freddy's: Security Breach",
+      "name": "Five Nights at Freddy's 2",
       "userId": 1,
       "current": false,
       "multiplayerCapable": false,
       "id": 14
     },
     {
-      "name": "Five Nights at Freddy's 2",
-      "userId": 3,
+      "name": "Civilization VI",
+      "userId": 2,
       "current": false,
-      "multiplayerCapable": false,
+      "multiplayerCapable": true,
       "id": 15
     }
   ],
@@ -504,11 +497,6 @@
       "id": 64
     },
     {
-      "tag": "Sandbox",
-      "userId": 2,
-      "id": 65
-    },
-    {
       "tag": "Open world",
       "userId": 2,
       "id": 66
@@ -522,11 +510,6 @@
       "tag": "Reality TV",
       "userId": 2,
       "id": 72
-    },
-    {
-      "tag": "Rogue-like",
-      "userId": 2,
-      "id": 73
     },
     {
       "tag": "Dungeon Crawler",
@@ -567,6 +550,141 @@
       "tag": "Rhythm",
       "userId": 2,
       "id": 81
+    },
+    {
+      "tag": "Action",
+      "userId": 3,
+      "id": 82
+    },
+    {
+      "tag": "Adventure",
+      "userId": 3,
+      "id": 83
+    },
+    {
+      "tag": "Comedy",
+      "userId": 3,
+      "id": 84
+    },
+    {
+      "tag": "Drama",
+      "userId": 3,
+      "id": 85
+    },
+    {
+      "tag": "Mystery",
+      "userId": 3,
+      "id": 86
+    },
+    {
+      "tag": "Fantasy",
+      "userId": 3,
+      "id": 87
+    },
+    {
+      "tag": "Historical",
+      "userId": 3,
+      "id": 88
+    },
+    {
+      "tag": "Horror",
+      "userId": 3,
+      "id": 89
+    },
+    {
+      "tag": "Romance",
+      "userId": 3,
+      "id": 90
+    },
+    {
+      "tag": "Science Fiction",
+      "userId": 3,
+      "id": 91
+    },
+    {
+      "tag": "Thriller",
+      "userId": 3,
+      "id": 92
+    },
+    {
+      "tag": "Western",
+      "userId": 3,
+      "id": 93
+    },
+    {
+      "tag": "Platformer",
+      "userId": 3,
+      "id": 94
+    },
+    {
+      "tag": "Shooter",
+      "userId": 3,
+      "id": 95
+    },
+    {
+      "tag": "Survival",
+      "userId": 3,
+      "id": 96
+    },
+    {
+      "tag": "Battle Royale",
+      "userId": 3,
+      "id": 97
+    },
+    {
+      "tag": "RPG",
+      "userId": 3,
+      "id": 98
+    },
+    {
+      "tag": "Simulator",
+      "userId": 3,
+      "id": 99
+    },
+    {
+      "tag": "Strategy",
+      "userId": 3,
+      "id": 100
+    },
+    {
+      "tag": "Esports",
+      "userId": 3,
+      "id": 101
+    },
+    {
+      "tag": "Casual",
+      "userId": 3,
+      "id": 102
+    },
+    {
+      "tag": "Educational",
+      "userId": 3,
+      "id": 103
+    },
+    {
+      "tag": "Sandbox",
+      "userId": 3,
+      "id": 104
+    },
+    {
+      "tag": "Open world",
+      "userId": 3,
+      "id": 105
+    },
+    {
+      "tag": "Magic",
+      "userId": 2,
+      "id": 106
+    },
+    {
+      "tag": "Teen",
+      "userId": 2,
+      "id": 107
+    },
+    {
+      "tag": "Adult",
+      "userId": 2,
+      "id": 108
     }
   ],
   "taggedGames": [
@@ -591,26 +709,6 @@
       "id": 23
     },
     {
-      "tagId": 73,
-      "gameId": 2,
-      "id": 24
-    },
-    {
-      "tagId": 45,
-      "gameId": 2,
-      "id": 25
-    },
-    {
-      "tagId": 59,
-      "gameId": 2,
-      "id": 26
-    },
-    {
-      "tagId": 74,
-      "gameId": 2,
-      "id": 27
-    },
-    {
       "tagId": 59,
       "gameId": 6,
       "id": 28
@@ -631,26 +729,6 @@
       "id": 31
     },
     {
-      "tagId": 59,
-      "gameId": 5,
-      "id": 32
-    },
-    {
-      "tagId": 43,
-      "gameId": 5,
-      "id": 33
-    },
-    {
-      "tagId": 46,
-      "gameId": 5,
-      "id": 34
-    },
-    {
-      "tagId": 75,
-      "gameId": 5,
-      "id": 35
-    },
-    {
       "tagId": 43,
       "gameId": 4,
       "id": 36
@@ -664,21 +742,6 @@
       "tagId": 75,
       "gameId": 4,
       "id": 38
-    },
-    {
-      "tagId": 61,
-      "gameId": 3,
-      "id": 39
-    },
-    {
-      "tagId": 75,
-      "gameId": 3,
-      "id": 40
-    },
-    {
-      "tagId": 52,
-      "gameId": 3,
-      "id": 41
     },
     {
       "tagId": 81,
@@ -756,16 +819,6 @@
       "id": 65
     },
     {
-      "tagId": 9,
-      "gameId": 14,
-      "id": 66
-    },
-    {
-      "tagId": 17,
-      "gameId": 14,
-      "id": 67
-    },
-    {
       "tagId": 45,
       "gameId": 9,
       "id": 68
@@ -791,14 +844,59 @@
       "id": 72
     },
     {
-      "tagId": 91,
-      "gameId": 15,
+      "tagId": 9,
+      "gameId": 14,
       "id": 73
     },
     {
-      "tagId": 96,
-      "gameId": 15,
+      "tagId": 17,
+      "gameId": 14,
       "id": 74
+    },
+    {
+      "tagId": 61,
+      "gameId": 3,
+      "id": 75
+    },
+    {
+      "tagId": 75,
+      "gameId": 3,
+      "id": 76
+    },
+    {
+      "tagId": 52,
+      "gameId": 3,
+      "id": 77
+    },
+    {
+      "tagId": 59,
+      "gameId": 5,
+      "id": 80
+    },
+    {
+      "tagId": 46,
+      "gameId": 5,
+      "id": 81
+    },
+    {
+      "tagId": 75,
+      "gameId": 5,
+      "id": 82
+    },
+    {
+      "tagId": 43,
+      "gameId": 5,
+      "id": 83
+    },
+    {
+      "tagId": 61,
+      "gameId": 15,
+      "id": 84
+    },
+    {
+      "tagId": 75,
+      "gameId": 15,
+      "id": 85
     }
   ],
   "shows": [
@@ -1046,6 +1144,11 @@
       "name": "Homer",
       "userId": 2,
       "id": 6
+    },
+    {
+      "name": "J.K.Rowling",
+      "userId": 2,
+      "id": 7
     }
   ],
   "books": [
